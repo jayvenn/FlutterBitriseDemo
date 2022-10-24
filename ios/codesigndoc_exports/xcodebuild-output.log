@@ -1,0 +1,23 @@
+Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -workspace /Users/jvnn/Documents/GitHub/FlutterBitriseDemo/ios/Runner.xcworkspace -scheme Runner -destination generic/platform=iOS clean archive -archivePath /var/folders/zb/vfxtgn152vz615gn7mzbq1fw0000gn/T/__codesigndoc__275101287/Runner.xcarchive
+
+User defaults from command line:
+    IDEArchivePathOverride = /var/folders/zb/vfxtgn152vz615gn7mzbq1fw0000gn/T/__codesigndoc__275101287/Runner.xcarchive
+    IDEPackageSupportUseBuiltinSCM = YES
+
+
+** CLEAN SUCCEEDED **
+
+Prepare packages
+
+Computing target dependency graph and provisioning inputs
+
+Create build description
+Build description signature: 83ae9eff6e0cc72952450e56b04df1c5
+Build description path: /Users/jvnn/Library/Developer/Xcode/DerivedData/Runner-diueamlqwwyqfpcxzuurstvubyvr/Build/Intermediates.noindex/ArchiveIntermediates/Runner/IntermediateBuildFilesPath/XCBuildData/83ae9eff6e0cc72952450e56b04df1c5-desc.xcbuild
+
+note: Building targets in dependency order
+/Users/jvnn/Documents/GitHub/FlutterBitriseDemo/ios/Runner.xcodeproj: error: Signing for "Runner" requires a development team. Select a development team in the Signing & Capabilities editor. (in target 'Runner' from project 'Runner')
+note: Run script build phase 'Run Script' will be run during every build because the option to run the script phase "Based on dependency analysis" is unchecked. (in target 'Runner' from project 'Runner')
+note: Run script build phase 'Thin Binary' will be run during every build because the option to run the script phase "Based on dependency analysis" is unchecked. (in target 'Runner' from project 'Runner')
+** ARCHIVE FAILED **

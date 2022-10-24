@@ -24,7 +24,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.purple,
       ),
-      home: const MyHomePage(title: 'Flutter + Bitrise'),
+      home: const MyHomePage(title: 'Oct 24'),
     );
   }
 }
